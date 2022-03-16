@@ -26,4 +26,14 @@ To get this project up and running locally on your computer:
    ```
 1. Open a browser to http://localhost:3000/ to open the library site.
 
+
+To open the project in Heroku, enter the following:
+
+1. heroku create 
+
+2. heroku open
+
+3. heroku logs --tail, to show current logs, and keep updating with new results.
+
 > **Note:** The library uses a default MongoDb database hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). You should use a different database for your own code experiments.
+
